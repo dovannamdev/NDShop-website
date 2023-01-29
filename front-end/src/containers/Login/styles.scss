@@ -1,0 +1,25 @@
+.Login {
+  min-height: 66vh;
+  max-width: 350px;
+  margin-top: 100px;
+  .bg-head {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-header {
+    border-radius: 10px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    text-align: center;
+    font-weight: 700;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Login {
+    max-width: 450px;
+  }
+}

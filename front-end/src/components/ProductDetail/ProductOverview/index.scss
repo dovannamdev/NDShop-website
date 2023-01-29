@@ -1,0 +1,122 @@
+$text-color-special: #3555c5;
+
+.Product-Overview {
+  border-radius: 8px;
+
+  .ant-image {
+    cursor: pointer;
+  }
+
+  .ant-image-mask {
+    display: none;
+  }
+
+  .catalog-item {
+    &:hover,
+    &:active,
+    &.active {
+      border: solid 1px $text-color-special;
+      border-radius: 8px;
+    }
+  }
+
+  .product {
+    &-info {
+      border-top: dashed 1px $text-color-special;
+      border-bottom: dashed 1px $text-color-special;
+    }
+    &-brand {
+      color: $text-color-special;
+      text-transform: uppercase;
+    }
+    &-price {
+      color: $text-color-special;
+    }
+    
+  }
+
+  .price-reduce {
+    margin: 0px 0.25rem 0px 0px;
+    padding: 0px;
+    border-style: none;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: unset;
+    opacity: 1;
+    background-color: transparent;
+    color: rgb(130, 134, 158);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: unset;
+    max-width: unset;
+    min-width: unset;
+    transition: color 0.3s ease 0s;
+    text-decoration: line-through;
+  }
+
+  .discount {
+    position: relative;
+    border: solid 2px $text-color-special;
+    border-radius: 8px;
+    &-price,
+    &-decr {
+      color: red;
+    }
+    &-mark {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 0px 36px 36px 0px;
+      border-color: transparent $text-color-special transparent transparent;
+      &-icon {
+        position: absolute;
+        top: 4px;
+        right: 6px;
+        color: #fff;
+        z-index: 0;
+        font-size: 8px;
+      }
+    }
+  }
+
+  .option {
+    border-top: dashed 1px $text-color-special;
+  }
+
+  .btn-group {
+    &-item {
+      border-radius: 4px;
+      color: #fff ;
+      font-weight: 500;
+      height: 48px;
+      border: none;
+      &:hover,
+      &:active {
+        -webkit-filter: brightness(1.1);
+        filter: brightness(1.1);
+      }
+    }
+  }
+
+  .ant-image-img {
+    max-height: 268px;
+    max-width: 268px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .Product-Overview {
+    .product {
+      &-info {
+        border-bottom: none;
+      }
+    }
+  }
+}

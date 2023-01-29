@@ -1,0 +1,30 @@
+.send-comment-frame {
+  height: 40px;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .star-raiting-frame {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.comment-form {
+  .ant-form-item-explain-error {
+    display: none;
+  }
+}
+
+.list-comment {
+  .ant-input.ant-input-disabled{
+    background-color: white;
+    cursor: auto;
+    color: black;
+  }
+}

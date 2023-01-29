@@ -1,0 +1,40 @@
+.SignUp {
+  // min-height: 100vh;
+  max-width: 500px;
+  .gender-field .ant-select-selection-placeholder {
+    color: #888;
+  }
+
+  .ant-select-selector {
+    border: none !important;
+  }
+
+  .ant-input-password-icon {
+    color: rgba(0, 0, 0, 0.25);
+  }
+
+    .bg-head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-header {
+        border-radius: 10px;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        text-align: center;
+        font-weight: 700;
+        width: 80%;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+  .SignUp {
+    .or-option,
+    &-submit-btn,
+    .login-gg {
+      // width: 40% !important;
+    }
+  }
+}

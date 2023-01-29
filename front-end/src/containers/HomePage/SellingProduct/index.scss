@@ -1,0 +1,34 @@
+.AllProduct {
+  
+    .bg-head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-header {
+        border-radius: 10px;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        text-align: center;
+        font-weight: 700;
+        width: 40%;
+        color: white;
+        font-size: 20px;
+    }
+    .promotion-item {
+        overflow: hidden;
+        img {
+          transform: scale(1);
+          transition: all linear 0.3s;
+        }
+        img:hover {
+          transform: scale(1.08);
+          transition: all linear 0.3s;
+        }
+    }
+}
+.bgSelling {
+  background-image: url(https://lh3.googleusercontent.com/xZ9HuB4XRDVSw776rVAbHauQFGrnH74Sf0fvPPK_FQ-zHNw7TSRD3Qvbn--6tPNbRfB2mVWy1Lo8PwmO6AhrQEyIVfsBi-MI=w1232);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 580px;
+}

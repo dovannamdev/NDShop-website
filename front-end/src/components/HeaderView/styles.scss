@@ -1,0 +1,68 @@
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s;
+
+  &:hover,
+  &:active {
+    color: #1253ad;
+    transform: scale(1.2);
+  }
+}
+
+.input-style {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.ant-input-search-button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  // padding: 20px;
+  font-size: 17px;
+  height: 40px;
+  left: -1px;
+}
+
+.navbar-tool-item {
+  padding-left: 32px;
+  transition: all 0.3s;
+
+  .icon {
+    color: #fff;
+    font-size: 28px;
+  }
+
+
+  .title {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  &:hover,
+  &:active {
+
+    .icon,
+    .title {
+     color: #1253ad;
+    }
+  }
+}
+
+.search-bar-wrapper {
+  max-width: 55%;
+}
+
+.search-bar {
+  & input {
+    outline: none;
+
+    &:focus {
+      border-color: transparent;
+    }
+  }
+}
+.bg-blue {
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}

@@ -1,0 +1,16 @@
+.promotion-bgwhite {
+    .bg-head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-header {
+        border-radius: 10px;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        text-align: center;
+        font-weight: 700;
+        width: 40%;
+        color: white;
+        font-size: 20px;
+    }
+}

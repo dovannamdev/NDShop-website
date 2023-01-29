@@ -1,0 +1,36 @@
+.Cart-Detail-View {
+    .page-position {
+        .icon-home {
+            border-radius: 50%;
+        }
+
+        .r-arrow {
+            line-height: 40px;
+        }
+
+        .cart-name {
+            border-radius: 18px;
+        }
+    }
+
+    .icon-del-item {
+        color: #3555c5;
+        font-size: 18px;
+        transition: all 0.25s;
+
+        &:hover,
+        &:active {
+            transform: scale(1.2);
+        }
+    }
+
+    .icon-tick {
+        text-align: center;
+        font-size: 70px;
+        background: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: initial;
+
+    }
+}
